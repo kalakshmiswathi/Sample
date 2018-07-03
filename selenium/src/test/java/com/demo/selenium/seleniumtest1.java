@@ -22,6 +22,7 @@ public class seleniumtest1 {
 	    String title= driver.getTitle();
 	    Assert.assertEquals(title, "GitHub");
 	    System.out.println("continue with test code");
+		System.out.println("Morning");
 	}
 
 }
